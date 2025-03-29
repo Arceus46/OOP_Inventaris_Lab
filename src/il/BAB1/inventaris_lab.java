@@ -1,4 +1,4 @@
-package il;
+package il.BAB1;
 public class inventaris_lab {//Class Inventaris Lab
         String id_peminjaman, id_user, id_barang, id_admin, tanggal_pinjam; //Atribut
         int denda; //Atribut   
