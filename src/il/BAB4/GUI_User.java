@@ -183,7 +183,6 @@ public class GUI_User extends javax.swing.JFrame {
         nama = jTextField2.getText(); //inisialisasi data
         alamat = jTextField3.getText(); //inisialisasi data
         Date selectedDate = jDateChooser1.getDate(); //inisialisasi data
-
         if (jTextField1.getText().trim().equals("") ||
             jTextField2.getText().trim().equals("") ||
             jTextField3.getText().trim().equals("")) {
@@ -191,7 +190,6 @@ public class GUI_User extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Semua field harus diisi!", "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }//kondisi jika salah satu field kosong
-
         if (selectedDate != null) { //kondisi jika tanggal tidak kosong
             SimpleDateFormat sdf = new SimpleDateFormat("dd MMMM yyyy"); //format tanggal
             tgl = sdf.format(selectedDate); //inisialisasi data

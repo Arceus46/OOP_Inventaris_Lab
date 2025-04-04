@@ -193,17 +193,14 @@ public class GUI_Barang extends javax.swing.JFrame{
             String id = jTextField1.getText();
             String nama = jTextField2.getText();
             Date selectedDate = jDateChooser1.getDate();
-
             if (id.trim().isEmpty() || nama.trim().isEmpty() || jTextField3.getText().trim().isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Semua field harus diisi!", "Error", JOptionPane.ERROR_MESSAGE);
                 return;
             }
-
             if (selectedDate != null) {
                 SimpleDateFormat sdf = new SimpleDateFormat("dd MMMM yyyy");
                 String tgl = sdf.format(selectedDate);
                 Barang barang = new Barang(stok, id, nama, tgl);
-
                 jTextArea1.append("Data Barang\n");
                 jTextArea1.append("--------------------------------------------------------\n");
                 jTextArea1.append("ID BARANG               : " + barang.getIdBarang() + "\n");

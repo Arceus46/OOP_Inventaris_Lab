@@ -4,12 +4,6 @@ public class inventaris_lab {
     private int denda;
 
     public inventaris_lab() {
-//        this.idPeminjaman = "P002";
-//        this.idUser = "U002";
-//        this.idBarang = "B002";
-//        this.idAdmin = "A002";
-//        this.tanggalPinjam = "24 Oktober 2006";
-//        this.denda = 150000;
     }
 
     public String getIdPeminjaman() { return id_peminjaman; }

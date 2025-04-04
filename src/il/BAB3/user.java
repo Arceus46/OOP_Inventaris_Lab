@@ -8,5 +8,4 @@ public class user extends inventaris_lab{ //Child Class atau Sub Class
         this.tanggal_lahir = "27 Maret 1987"; //inisialisasi data
         this.alamat = "Malang"; //inisialisasi data
     }
-    
 }

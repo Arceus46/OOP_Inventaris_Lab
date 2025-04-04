@@ -191,16 +191,13 @@ public class GP extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         inventaris_lab li = new inventaris_lab();
-
         li.setDenda(Integer.parseInt(jTextField2.getText()));
         li.setIdPeminjaman(jTextField1.getText());
         li.setIdUser(jComboBox1.getSelectedItem().toString());
         li.setIdAdmin(jComboBox2.getSelectedItem().toString());
         li.setIdBarang(jComboBox3.getSelectedItem().toString());
-
         Date tp = jDateChooser2.getDate();
         Date tk = jDateChooser1.getDate();
-
         if (jTextField2.getText().trim().equals("") || jTextField1.getText().trim().equals("")) {
             JOptionPane.showMessageDialog(null, "Semua field harus diisi!", "Error", JOptionPane.ERROR_MESSAGE);
             return;

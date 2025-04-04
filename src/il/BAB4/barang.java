@@ -9,7 +9,6 @@ class Barang extends inventaris_lab { // Child Class
         this.namaBarang = nama;
         this.tanggalMasuk = tanggal;
     }
-
     public int getStokBarang() { return stokBarang; }
     public void setStokBarang(int stokBarang) { this.stokBarang = stokBarang; }
 
