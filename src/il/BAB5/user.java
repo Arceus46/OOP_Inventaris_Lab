@@ -1,4 +1,7 @@
-package il.BAB4;
+package il.BAB5;
+
+import il.BAB4.*;
+
 class user extends inventaris_lab { // Child Class
     private String id, namaUser, tanggalLahir, alamat;
     public user(String Idpengguna,String namaUser, String tanggalLahir, String alamat) {

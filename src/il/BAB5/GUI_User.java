@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package il.BAB4;
+package il.BAB5;
+import il.BAB4.*;
 import java.text.SimpleDateFormat; //format tanggal yang akan digunakan
 import java.util.Date; //format perwakilan waktu
 import javax.swing.JOptionPane; //format untuk menampilkan suatu pesan
@@ -235,6 +236,10 @@ public class GUI_User extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(GUI_User.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>

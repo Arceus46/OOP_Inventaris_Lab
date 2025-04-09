@@ -189,9 +189,9 @@ public class GUI_Barang extends javax.swing.JFrame{
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        int stok = Integer.parseInt(jTextField3.getText());
-            String id = jTextField1.getText();
-            String nama = jTextField2.getText();
+            stok = Integer.parseInt(jTextField3.getText());
+            id = jTextField1.getText();
+            nama = jTextField2.getText();
             Date selectedDate = jDateChooser1.getDate();
             if (id.trim().isEmpty() || nama.trim().isEmpty() || jTextField3.getText().trim().isEmpty()) {
                 JOptionPane.showMessageDialog(null, "Semua field harus diisi!", "Error", JOptionPane.ERROR_MESSAGE);
