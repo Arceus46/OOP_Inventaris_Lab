@@ -1,7 +1,4 @@
 package il.BAB5;
-
-import il.BAB4.*;
-
 class Barang extends inventaris_lab { // Child Class
     private int stokBarang;
     private String namaBarang, tanggalMasuk;
@@ -20,4 +17,7 @@ class Barang extends inventaris_lab { // Child Class
 
     public String getTanggalMasuk() { return tanggalMasuk; }
     public void setTanggalMasuk(String tanggalMasuk) { this.tanggalMasuk = tanggalMasuk; }
+        
+    public String getIdBarang() { return id_barang; }
+    public void setIdBarang(String idBarang) { this.id_barang = ("B00" + idBarang); }
 }

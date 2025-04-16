@@ -1,11 +1,8 @@
 package il.BAB5;
-
-import il.BAB4.*;
-
 public class inventaris_lab {
-    private String id_peminjaman, id_user, id_barang, id_admin, tanggal_pinjam, tanggal_kembali;
+    private String id_peminjaman,  id_admin, tanggal_pinjam, tanggal_kembali;
     private int denda;
-
+    public String id_user, id_barang;
     public inventaris_lab() {
     }
 
