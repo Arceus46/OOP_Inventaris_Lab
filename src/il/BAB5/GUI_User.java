@@ -266,7 +266,7 @@ public class GUI_User extends javax.swing.JFrame {
         while (rowCount > 0){
             dataModel.removeRow(rowCount - 1);
             rowCount = dataModel.getRowCount();
-    }
+        }
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**

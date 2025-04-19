@@ -5,6 +5,9 @@ public class inventaris_lab {
     public String id_user, id_barang;
     public inventaris_lab() {
     }
+    public inventaris_lab(String hollo) {
+        hollo   = "Ini Ujicoba Overloading";
+    }
 
     public String getIdPeminjaman() { return id_peminjaman; }
     public void setIdPeminjaman(String idPeminjaman) { this.id_peminjaman = idPeminjaman; }
