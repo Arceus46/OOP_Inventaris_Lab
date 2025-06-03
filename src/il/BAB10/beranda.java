@@ -1303,7 +1303,7 @@ try {
     // Reset form
     nimbox.setSelectedIndex(0);
     idbarbox.setSelectedIndex(0);
-    jDateChooser1.setDate(null);
+    tanggal();
     jDateChooser2.setDate(null);
 
     // Refresh tabel
