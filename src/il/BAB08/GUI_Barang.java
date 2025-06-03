@@ -268,7 +268,7 @@ public void batal()
         while (rowCount > 0){
             dataModel.removeRow(rowCount - 1);
             rowCount = dataModel.getRowCount();
-    }
+        }
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
